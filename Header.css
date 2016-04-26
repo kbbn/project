@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100%;
+	border-bottom: 15px solid #00903c;
+	height: 400px;
+	background-image: url("foto_header.jpg");
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.head-opmaak {
+	width: 1080px;
+	margin: auto;
+}
+
+.social-media {
+	height: 50px;
+	width: 50px;
+	border: 2px solid;
+	position: relative;
+	right: 30px;
+	top: -200px;
+	float: right;
+	margin-right: 10px;
+}
+
+.logo {
+	position: relative;
+	padding: 100px 20px;
+}
+
+#facebook{
+	background-image: url("logo_facebook.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: #3a5795;
+}
+
+#facebook:hover {
+	background-image: url("logo_facebook2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #3a5795;
+}
+
+#youtube {
+	background-image: url("logo_youtube.png");
+	background-position: center;
+	border-color: #cf3427;
+}
+
+#youtube:hover {
+	background-image: url("logo_youtube2.png");
+	background-position: center;
+	background-color: #cf3427;
+}
+
+#mail {
+	background-image: url("logo_mail3.png");
+	background-position: center;
+	border-color: #9c1980;
+}
+
+#mail:hover {
+	background-image: url("logo_mail.png");
+	background-position: center;
+	background-color: #9c1980;
+}
+
+
+nav {
+	background-color: #333;	
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #00903c;
+}
